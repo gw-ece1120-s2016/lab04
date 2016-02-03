@@ -109,6 +109,8 @@ prompt the user to input the number of integers `n`, and fill in the
 array with exactly that many integers. Finally, call `array_sum` and
 print the result. 
 
+If the user enters n larger than 1000, you should print an error and quit.
+
 When you are done with this part make sure git tracks this file. Run
 following command form inside lab04 folder: ``` git add part3.c ```
 
