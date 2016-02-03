@@ -67,7 +67,7 @@ GCD called `int gcd(int a, int b)`. Make sure the `scanfs` and
 Now, modify your code to print the values of `u` and `v` at three
 places. First, in `main` just *BEFORE* the function call to `gcd`,
 inside `gcd` just before the return`, and finally in `main` just *AFTER*
-the call to to `gcd`.
+ the call to to `gcd`.
 
 Does the function change the value of the inputs as it runs? Do the
 values of `u` and `v` change outside of the function. Explain the
