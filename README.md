@@ -105,9 +105,9 @@ an array of integers and the parameter variable `n` is the number of
 elements in the array.
 
 In `main`, your program should declare an array of size 1000, then
-prompt the user to input the number of integers `n`, and fill in the
-array with exactly that many integers. Finally, call `array_sum` and
-print the result. 
+prompt the user to input the number of integers `n`, and then fill in
+the array with exactly that many integers by prompting the user `n`
+times. Finally, call `array_sum` and print the result. 
 
 If the user enters n larger than 1000, you should print an error and quit.
 
