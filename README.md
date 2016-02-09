@@ -80,9 +80,9 @@ following command form inside lab04 folder: ``` git add part1.c ```
 ## Part 2
 
 Write a program called `part2.c` with a function called `void
-print_int(int x)` to print the input number in decimal (without the
-ending newline). You may only use the C `putchar(int c)` function to
-display digits (and an optional leading minus sign). 
+print_int(int x)` to print the input integer in decimal (i.e. base
+10), without the ending newline. You may only use the C `putchar(int
+c)` function to display digits (and an optional leading minus sign). 
 
 Your program should read an integer, call `print_int` to print it, and
 then exit. Be sure your program can handle single digit and negative
@@ -129,7 +129,7 @@ the full precision of a `double`.
 
 Explain how your method works in a detailed comment.
 
-If the input is negative you should return a `NaN` (meaning
+If the input is negative you should return a `NAN` (meaning
 not-a-number). You can load definition of this symbol by adding
 `#include <math.h>` to the top of your program.
 
